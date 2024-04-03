@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Claim Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="content">
+        <h1>INSURANCE VERIFICATION </h1>
+        <form action="\predict" method="post">
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">
+                        <h3 class="card-title">Area of Service</h3>
+                        <select name="Area_Service" id="Area_Service" required="required">
+                            <option value="Hudson Valley">Hudson Valley</option>
+                            <option value="Western NY">Western NY</option>
+                            <option value="Central NY">Central NY</option>
+                            <option value="Capital/Adirond">Capital/Adirond</option>
+                            <option value="Finger Lakes">Finger Lakes</option>
+                            <option value="New York City">New York City</option>
+                            <option value="Southern Tier">Southern Tier</option>
+                        </select>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">
+                        <h3 class="card-title">Age</h3>
+                        <select name="Age" id="Age" required="required">
+                            <option value="0 to 17">0 to 17</option>
+                            <option value="18 to 29">18 to 29</option>
+                            <option value="30 to 49">30 to 49</option>
+                            <option value="50 to 69">50 to 69</option>
+                            <option value="70 or Older">70 or Older</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body"> 
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Gender</h3>
+                        <select name="Gender" id="Gender" required="required">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+   
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Cultural Group</h3>
+                        <select name="Cultural_group" id="Cultural_group" required="required">
+                            <option value="White">White</option>
+                            <option value="Black/African American">Black/African American</option>
+                            <option value="Other Race">Other Race</option>
+                            <option value="Unknown">Unknown</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Ethnicity</h3>
+                        <select name="ethnicity" id="ethnicity" required="required">
+                            <option value="Not Span/Hispanic">Not Span/Hispanic</option>
+                            <option value="Spanish/Hispanic">Spanish/Hispanic</option>
+                            <option value="Unknown">Unknown</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Days Spend in the Hospital?</h3>
+                        <input id="first" name="Days_spend_hsptl" type="number " required="required">   
+                    </div>  
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Admission Type</h3>
+                        <select name="Admission_type" id="Admission_type" required="required">
+                            <option value="Emergency">Emergency</option>
+                            <option value="Elective">Elective</option>
+                            <option value="Urgent">Urgent</option>
+                            <option value="Newborn">Newborn</option>
+                            <option value="Trauma">Trauma</option>
+                            <option value="Not Available">Not Available</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Home or Self Care</h3>
+                        <select name="home_self_care" id="home_self_care"  required="required">
+                            <option value="Home or Self Care">Home or Self Care</option>
+                            <option value="Home w/ Home Health Services">Home w/ Home Health Services</option>
+                            <option value="Skilled Nursing Home">Skilled Nursing Home</option>
+                            <option value="Expired">Expired</option>
+                            <option value="Short-term Hospital">Short-term Hospital</option>
+                            <option value="Inpatient Rehabilitation Facility">Inpatient Rehabilitation Facility</option>
+                            <option value="Left Against Medical Advice">Left Against Medical Advice</option>
+                            <option value="Psychiatric Hospital or Unit of Hosp">Psychiatric Hospital or Unit of Hosp</option>
+                            <option value="Hospice - Medical Facility">Hospice - Medical Facility</option>
+                            <option value="Hospice - Home">Hospice - Home</option>
+                            <option value="Another Type Not Listed">Another Type Not Listed</option>
+                            <option value="Facility w/ Custodial/Supportive Care">Facility w/ Custodial/Supportive Care</option>
+                            <option value="Court/Law Enforcement">Court/Law Enforcement</option>
+                            <option value="Medicare Cert Long Term Care Hospital">Medicare Cert Long Term Care Hospital</option>
+                            <option value="Cancer Center or Children's Hospital">Cancer Center or Children's Hospital</option>
+                            <option value="Hosp Basd Medicare Approved Swing Bed">Hosp Basd Medicare Approved Swing Bed</option>
+                            <option value="Federal Health Care Facility">Federal Health Care Facility</option>
+                            <option value="Critical Access Hospital">Critical Access Hospital</option>
+                            <option value="Medicaid Cert Nursing Facility">Medicaid Cert Nursing Facility</option>
+                        </select>
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">CCS Diagnosis Code</h3>
+                        <input id="second" name="ccs_diagnosis_code" type="number " required="required">
+                    </div>
+                </div>
+           </div>
+
+           <div class="card">
+                <div class="card-body"> 
+                    <div class="title-wrapper">		
+                        <h3 class="card-title">CCS Procedure Code?</h3>
+                        <input id="third" name="ccs_procedure_code" type="number " required="required">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Code illness</h3>
+                        <select name="Code_illness" required="required">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Mortality Risk</h3>
+                        <select name="mortality_risk" required="required">
+                            <option value="1.0">1.0</option>
+                            <option value="2.0">2.0</option>
+                            <option value="3.0">3.0</option>
+                            <option value="4.0">4.0</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Surgical Description</h3>
+                        <select name="Surg_Description" id="Surg_Description" required="required">
+                            <option value="Medical">Medical</option>
+                            <option value="Surgical">Surgical</option>
+                            <option value="Not Applicable">Not Applicable</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body"> 
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Emergency Department</h3>
+                        <select name="emergency_dept_yes_no" id="emergency_dept_yes_no" required="required">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>	
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Total Charge</h3>
+                        <input id="fourth" name="Tot_charg" type="number " required="required">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Total Cost</h3>
+                        <input id="fifth" name="Tot_cost" type="number " required="required">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="title-wrapper">	
+                        <h3 class="card-title">Payment Typology</h3>
+                        <select name="Payment_Typology" id="Payment_Typology" required="required">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <input type="submit" value="Submit" class="btn btn-secondary">
+
+		</form>
+
+    </div>
+</body>
+</html>
